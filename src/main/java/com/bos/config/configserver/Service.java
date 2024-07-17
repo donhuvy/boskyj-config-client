@@ -7,10 +7,14 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Service {
-    private static final Logger log= LoggerFactory.getLogger(Service.class);
+
+    private static final Logger log = LoggerFactory.getLogger(Service.class);
+
     @Value("${service.name}")
     private String value;
-    public void print(){
-        log.info("property value = {}",value);
+
+    public void print() {
+        log.info("property value = {}", value);
     }
+
 }

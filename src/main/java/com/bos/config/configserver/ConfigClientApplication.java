@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class ConfigClientApplication implements CommandLineRunner {
+
     @Autowired
     private Service service;
 
